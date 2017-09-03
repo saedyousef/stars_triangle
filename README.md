@@ -1,11 +1,6 @@
 # StarsTriangle
-PHP script that drawing a triangle of stars  
+PHP script to draw triangle of stars with specified number of rows and repetition
 
-To run this script form the CLI :  
-clone this repo  
-cd to the path_to_the_repo  
-php StarsTriangle.php {specify the number of rows}  {specify the number of repetition}
-
-# Example  
+# Test the script  
 
 php StarsTriangle.php 5 3
