@@ -23,15 +23,11 @@ class Triangle{
 		for($size = 1; $size <= $rows; $size++)
 		{
 			for($counter = $rows *  $repeat - ($repeat - 1); $counter >= $size; $counter--)
-			{
 				echo '  ';
 
-			}
 
 			for($counter = 1; $counter <= $size * $repeat - ($repeat - 1) ; $counter++)
-			{
 				echo "*";
-			}
 
 			echo "\n";
 		}
